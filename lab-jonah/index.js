@@ -1,4 +1,6 @@
 'use strict';
 
 const greet = require('./lib/greet.js');
-const math = require('./lib/arithmetic.js');
+const arithmetic = require('./lib/arithmetic.js');
+
+greet('Jonah');
