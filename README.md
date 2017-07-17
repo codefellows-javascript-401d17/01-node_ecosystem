@@ -57,3 +57,7 @@
 * 3pts feature tasks
 * 3pts tests
 * 2pts documentation
+
+## My README.md addition
+
+##### Today we created two files: one that contains a globally scoped function that takes in a string and adds hello to it, and another that contains two functions one that adds two integers and a second that subtracts the first from the second. All functions have exceptions added to them looking for inputs that are not the same type as what the function is expecting, if triggered they will return an error message, if not triggered the functions should continue as expected. Once the functions are set up we wrote tests to test various conditions like making sure the correct data type was entered or making sure the correct phrase or number is returned.

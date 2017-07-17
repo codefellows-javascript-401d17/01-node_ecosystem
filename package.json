@@ -1,0 +1,22 @@
+{
+  "name": "01-node_ecosystem",
+  "version": "1.0.0",
+  "description": "first lab",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganabsher/01-node_ecosystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loganabsher/01-node_ecosystem/issues"
+  },
+  "homepage": "https://github.com/loganabsher/01-node_ecosystem#readme"
+}
