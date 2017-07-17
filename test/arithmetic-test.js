@@ -14,6 +14,12 @@ describe('Arithmetic Module', function(){
         arithmetic.add();
       }, 'error not thrown')
     });
+    it('should return NaN if numbers were not used', function(){
+      assert.throws(function(){
+        var addnan = arithmetic.add('dog', 'cat');
+        assert.ok(addnan === NaN, 'not equal to NaN')
+      })
+    });
   });
   describe('#sub', function(){
     it('should return 2', function(){
@@ -24,6 +30,12 @@ describe('Arithmetic Module', function(){
       assert.throws(function(){
         arithmetic.sub();
       }, 'error not thrown')
+    });
+    it('should return NaN if numbers were not used', function(){
+      assert.throws(function(){
+        var subnan = arithmetic.sub('dog', 'cat');
+        assert.ok(subnan === NaN, 'not equal to NaN')
+      })
     });
   });
 })
