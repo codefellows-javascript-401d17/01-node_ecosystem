@@ -22,7 +22,6 @@
   * **.gitignore** - contains a robust `.gitignore` file
   * **.eslintrc** - contains the provided `.eslintrc` file
   * **.eslintignore** - contains the provided `.eslintignore` file
-  * **.package.json** - contains all necessary dependencies and developer dependencies
   * **lib/** - should contain your modules
   * **test/** - should contain your unit tests
 
