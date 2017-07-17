@@ -1,6 +1,6 @@
 'use strict';
 
-const greet = require('..lib/greet.js');
+const greet = require('../lib/greet.js');
 const assert = require('assert');
 
 describe('#hello', function() {
