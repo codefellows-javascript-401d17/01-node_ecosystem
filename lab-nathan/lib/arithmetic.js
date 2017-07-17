@@ -1,7 +1,7 @@
 'use strict';
 
 let arithmetic = {};
-module.export = arithmetic;
+module.exports = arithmetic;
 
 arithmetic.add = function(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {

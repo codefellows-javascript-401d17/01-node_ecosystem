@@ -1,5 +1,5 @@
 'use strict';
 
-module.export = function(name) {
+module.exports = function(name) {
   return typeof name === 'string'? `hello ${name}!` : null;
-}
+};
