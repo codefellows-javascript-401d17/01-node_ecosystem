@@ -33,7 +33,7 @@ describe('Arithmetic Module', function(){
     });
     it('should return NaN if numbers were not used', function(){
       assert.throws(function(){
-        var subnan = arithmetic.sub('dog', 'cat');
+        var subnan = arithmetic.sub('cat', 'dog');
         assert.ok(subnan === NaN, 'not equal to NaN')
       })
     });
