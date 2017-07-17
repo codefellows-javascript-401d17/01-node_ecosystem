@@ -7,7 +7,15 @@
   * write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
   * submit a pull request to this repository
   * submit a link to your pull request on canvas
-  * submit a question, observation, and how long you spent on canvas  
+  * submit a question, observation, and how long you spent on canvas
+
+  ```javascript
+    greet('john'); //john
+
+    arithmetic.add(1, 4); //5
+    arithmetic.sub(4, 1); //3
+
+  ```
 
 ## Resources  
 * [node assert docs](https://nodejs.org/dist/latest-v4.x/docs/api/assert.html)
@@ -51,9 +59,3 @@
 ###### BONUS 1pt
 * write a test that expects the greet module to return null when you use non string values
 * write a test that ensures the functions work as expected with non number inputs
-
-## Rubric  
-* 2pts configuration
-* 3pts feature tasks
-* 3pts tests
-* 2pts documentation

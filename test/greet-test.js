@@ -9,7 +9,11 @@ describe('greet', function () {
   describe('#greet', function () {
     it('returns hello luis', function () {
       var greeting = greet('luis');
-      assert(greeting = 'hello luis');
+      assert(greeting === 'hello luis');
+    });
+    it('returns null if parameter is not a string', function() {
+      var greeting = greet(45);
+      assert(greeting === null );
     })
   })
 })
