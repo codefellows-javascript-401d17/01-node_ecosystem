@@ -7,7 +7,7 @@ exports.add = function(a, b) {
   return a + b;
 }
 
-exports.sub = function(a,b) {
-  if(isNaN(a) || isNaN(b)) return 'Not a number!'
+exports.sub = function(a, b) {
+  if(isNaN(a) || isNaN(b)) return 'Not a number!';
   return a - b;
 }
