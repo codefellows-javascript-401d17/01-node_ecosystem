@@ -7,13 +7,13 @@ describe('Math Module', function() {
   describe('#add', function(){
     it('should return 5', function(){
       var result = math.add(2,3);
-      assert.ok(result === 5, 'you messed up');
+      assert.ok(result === 5, 'you are wrong');
     });
   });
-  describe('#sub', function(){
+  describe('#subtract', function(){
     it('should return 1', function(){
-      var result = math.sub(3,2);
-      assert.ok(result === 1, 'you messed up');
+      var result = math.subtract(3,2);
+      assert.ok(result === 1, 'you are wrong');
     });
   });
 });

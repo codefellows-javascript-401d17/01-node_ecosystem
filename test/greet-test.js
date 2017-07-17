@@ -12,6 +12,6 @@ describe('Greet Module', function(){
       it('should throw not a string error', function(){
         var result = greeting(4);
         assert.ok(result === null, 'error not thrown');
-      });
+    });
   });
 });
